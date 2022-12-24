@@ -1,0 +1,84 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    border-radius: 50px;
+    padding: 20px;
+    border: solid 5px #D4D4D2;
+    height: 650px;
+    width: 350px;
+    background-color: black;
+    color: white;
+}
+
+.top, .middle, .bot {
+    display: flex;
+    border-radius: 50%;
+}
+
+.top {
+    border: solid 1px black;
+    padding: 105px 15px 0 12px;
+    height: 70px;
+    color: white;
+    font-size: 60px;
+}
+
+.bot {
+    flex-direction: column;
+    height: 340px;
+}
+
+.row {
+    display: flex;
+    height: 85px;
+}
+
+.col, .topbut {
+    font-size: 40px;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin: 5px;
+}
+
+.opp {
+    background-color: #FF9500;
+    color: white;
+}
+
+.num {
+    background-color: #505050;
+    color: white;
+}
+
+.topbut {
+    background-color: #A3A3A2;
+}
+
+button {
+    cursor: pointer;
+}
+
+.num:hover {background-color: #A3A3A2}
+
+.opp:hover {
+    background-color: white;
+    color: #FF9500;
+}
+
+.topbut:hover {
+    background-color: white;
+}
+
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
